@@ -3,8 +3,10 @@ pragma solidity ^0.8.20;
 
 contract DemoOne {
     address public newOwner;
+    bool public condition;
 
     constructor() {
         newOwner = msg.sender;
+        condition = true;
     }
 }
